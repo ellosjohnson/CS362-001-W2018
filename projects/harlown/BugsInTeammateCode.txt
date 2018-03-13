@@ -1,0 +1,12 @@
+Bug-Reports
+
+appts.java
+
+1)	This.startHour = 2;
+	makes every starthour start at 2 always. cannot set starthours with parameters of method.
+	Test by making any appt with start hour != 2	
+
+2)	if(startHour<-1 || startHour>23)
+	allows for -1 hours
+	Test by setting a valid appt. Then using setStartHour() to set starthour to -1 hour. 
+	IsValid() will still be true
